@@ -26,22 +26,22 @@ Enter a precision of the result:
 
 Result:
 ```
-	x			taylor_series(x)		(1 + x)^(-3/2)	  number of words 	stop condition
+	x			taylor_series(x)		(1 + x)^(-3/2)	number of words	stop condition
 -------------------------------------------------------------------------------------
- -0.34		1.8649806		        1.8650226				    	10					    	0
- -0.26		1.5572369		        1.5573204				    	7						      0
- -0.17		1.3257230		        1.3258140				    	5						      0
- -0.09		1.1464616		        1.1464766				    	4					      	0
- -0.00		1.0042000		        1.0042147				    	1					      	0
-  0.08		0.8890200		        0.8891197				    	3					      	0
-  0.17		0.7943934		        0.7944452				    	5					      	0
-  0.25		0.7154155		        0.7154559				    	7					      	0
-  0.33		0.6486925		        0.6487404				    	9					      	0
-  0.42		0.5917038		        0.5917853				    	11					    	0
-  0.50		0.5428006		        0.5427021				    	14					    	0
+ -0.34		1.8649806		  1.8650226					10						0
+ -0.26		1.5572369		  1.5573204					7						0
+ -0.17		1.3257230		  1.3258140					5						0
+ -0.09		1.1464616		  1.1464766					4						0
+ -0.00		1.0042000		  1.0042147					1						0
+  0.08		0.8890200		  0.8891197					3						0
+  0.17		0.7943934		  0.7944452					5						0
+  0.25		0.7154155		  0.7154559					7						0
+  0.33		0.6486925		  0.6487404					9						0
+  0.42		0.5917038		  0.5917853					11						0
+  0.50		0.5428006		  0.5427021					14						0
  -------------------------------------------------------------------------------------
 ```
-Condition:
-0 - result has reached required precision,
-1 - maximum number of calculated words of the series (declared in the program) has been reached,
+Conditions:<br>
+0 - result has reached required precision,<br>
+1 - maximum number of calculated words of the series (declared in the program) has been reached,<br>
 2 - both at once.
