@@ -1,4 +1,4 @@
-# Calculate equations using the Taylor series.
+# Calculate formulas using the Taylor series.
 
 ## Sample usage
 Input:
